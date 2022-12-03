@@ -6,7 +6,7 @@
 /*   By: jaberkro <jaberkro@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/12/01 06:20:17 by jaberkro      #+#    #+#                 */
-/*   Updated: 2022/12/03 16:32:53 by jaberkro      ########   odam.nl         */
+/*   Updated: 2022/12/03 17:37:44 by jaberkro      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,6 @@ int main(void)
 		std::cout << "sum of 3 max calories: " << calories.at(0) + calories.at(1) + calories.at(2) << std::endl;
 		myfile.close();
 	}
-  else std::cout << "Unable to open file"; 
-  return (0);
+	else std::cout << "Unable to open file"; 
+	return (0);
 }
