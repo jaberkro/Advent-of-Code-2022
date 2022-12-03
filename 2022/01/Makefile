@@ -1,6 +1,6 @@
 NAME = calories
 SRC = main.cpp
-FLAGS = -Wall -Werror -Wextra
+FLAGS = -Wall -Werror -Wextra -std=c++98
 
 all: $(NAME)
 
@@ -10,7 +10,7 @@ $(NAME): $(SRC)
 clean:
 
 fclean: clean
-	rm $(NAME)
+	rm -rf $(NAME)
 
 re: fclean all
 
