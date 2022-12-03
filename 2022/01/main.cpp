@@ -6,7 +6,7 @@
 /*   By: jaberkro <jaberkro@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/12/01 06:20:17 by jaberkro      #+#    #+#                 */
-/*   Updated: 2022/12/03 16:25:39 by jaberkro      ########   odam.nl         */
+/*   Updated: 2022/12/03 16:32:53 by jaberkro      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ int main(void)
 	std::vector<int> calories;
 	std::string line;
 	std::ifstream myfile("input.txt");
+
 	if (myfile.is_open())
 	{
 		while ( getline (myfile,line) )
