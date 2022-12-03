@@ -6,14 +6,12 @@
 /*   By: jaberkro <jaberkro@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/12/03 17:01:03 by jaberkro      #+#    #+#                 */
-/*   Updated: 2022/12/03 17:37:30 by jaberkro      ########   odam.nl         */
+/*   Updated: 2022/12/03 17:45:47 by jaberkro      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <fstream>
-#include <vector>
-#include <algorithm>
 
 int	calculate_round_score(std::string line)
 {

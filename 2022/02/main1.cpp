@@ -6,14 +6,12 @@
 /*   By: jaberkro <jaberkro@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/12/01 06:20:17 by jaberkro      #+#    #+#                 */
-/*   Updated: 2022/12/03 17:37:35 by jaberkro      ########   odam.nl         */
+/*   Updated: 2022/12/03 17:45:48 by jaberkro      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <fstream>
-#include <vector>
-#include <algorithm>
 
 int main(void)
 {
