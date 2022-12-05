@@ -1,5 +1,5 @@
-NAME1 = sections1
-NAME2 = sections2
+NAME1 = top_crates1
+NAME2 = top_crates2
 SRC1 = main1.cpp
 SRC2 = main2.cpp
 FLAGS = -Wall -Werror -Wextra -std=c++98
