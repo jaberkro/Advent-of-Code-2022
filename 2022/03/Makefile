@@ -1,7 +1,7 @@
 NAME1 = priorities1
 NAME2 = priorities2
-SRC1 = main1.cpp
-SRC2 = main2.cpp
+SRC1 = part1.cpp
+SRC2 = part2.cpp
 FLAGS = -Wall -Werror -Wextra -std=c++98
 
 all: $(NAME1) $(NAME2)
