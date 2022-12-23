@@ -1,5 +1,5 @@
 NAME1 = ground_tiles1
-SRC1 = part1.cpp
+SRC1 = part1+2.cpp
 FLAGS = -Wall -Werror -Wextra -std=c++98
 
 all: $(NAME1)
