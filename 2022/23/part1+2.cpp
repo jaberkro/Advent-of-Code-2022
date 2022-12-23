@@ -173,14 +173,7 @@ int main(void)
 		{
 			for (unsigned long x = 0; x < line.size(); x++)
 			{
-				if (line.at(x) == '#')
-				{
-					elvesMap[y][SIZE / 2 - STARTWIDTH / 2 + x] = '#';
-				}
-				else
-				{
-					elvesMap[y][SIZE / 2 - STARTWIDTH / 2 + x] = '.';
-				}
+				elvesMap[y][SIZE / 2 - STARTWIDTH / 2 + x] = line.at(x);
 			}
 			y++;			
 		}
